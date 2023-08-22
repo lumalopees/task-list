@@ -2,10 +2,10 @@
 
 I am excited to request the creation of a more advanced task management page using HTML, CSS and JavaScript technologies. I would like a modern and functional look. Here are the full details of what I have in mind:
 
-<!-- HTML:
+HTML:
 
  Create a basic HTML structure with <html>, <head> and <body> tags.
- In the <head>, add meta tags for the character set and viewport, and set the page title to "To Do List". -->
+ In the <head>, add meta tags for the character set and viewport, and set the page title to "To Do List".
 
 css:
 
@@ -32,4 +32,3 @@ JavaScript:
  Use JavaScript to create interactions with to-do list elements:
      When the checkbox is checked, apply the .completed class to the <li> to mark the task as completed.
  Add a "Delete Completed" button that, when clicked, removes <li> elements with the .completed class.
-
