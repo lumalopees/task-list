@@ -48,7 +48,10 @@ form {
 }
 
 li {
+  align-items: center;
+  border: 1px solid #eee;
   padding: 1px;
+  margin: 0.5em 0;
   cursor: pointer;
   list-style-type: none;
 }
