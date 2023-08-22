@@ -21,9 +21,16 @@ body {
   box-shadow: 0 2px 5px rgb(46, 161, 94);
 }
 
-#wp {
+#wu {
   width: 100%;
   border: greenyellow;
-  border-radius: 80px;
+  border-radius: 70px;
   box-shadow: 0 2px 5px rgb(55, 80, 65);
+}
+
+#button-add {
+  background-color: #d9dfdd;
+  color: #49A078;
+  border-radius: 80px;
+  padding: 5px;
 }
