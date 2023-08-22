@@ -59,3 +59,16 @@ li {
 li:hover {
   background-color: #34ffa0;
 }
+
+#delete-completed {
+  background-color: #d9dfdd;
+  color: #49A078;
+  border-radius: 80px;
+  padding: 5px;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border: 1px solid #49A078;
+  width: 200px;
+  margin-left: 300px;
+}
