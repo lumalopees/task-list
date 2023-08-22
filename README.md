@@ -1,45 +1,35 @@
 # Hello!
 
-I'm excited to ask you to create a task management page with a more polished feel, using only HTML and CSS. I would like a modern and functional look. Here are the full details of what I have in mind:
+I am excited to request the creation of a more advanced task management page using HTML, CSS and JavaScript technologies. I would like a modern and functional look. Here are the full details of what I have in mind:
 
-<!-- Header:
+HTML:
 
-     A stylish header with a gradient background that ranges from a dark blue (#007BFF) at the top to a lighter shade at the bottom.
-     The header must be fixed at the top of the page, even when the page is scrolled.
-     Center the "My To-Do List" text in the header.
-     Apply a bold font to make the title more prominent. -->
+ Create a basic HTML structure with <html>, <head> and <body> tags.
+ In the <head>, add meta tags for the character set and viewport, and set the page title to "To Do List".
 
-<!-- Body:
+css:
 
-     A centered container with a maximum width of 800px and inner margins of 2em.
-     Add a soft shadow to the container to create a sense of elevation. -->
+ In the <head>, include a <style> tag to add the CSS code.
+ Style the <body> with zero margin and a standard font such as "Helvetica Neue" or Arial.
+ Create a <header> with a gradient background using the linear-gradient property. Set the text color to white and center the "My Task List" text.
+ Use a .container class for the main container. Set a maximum width of 800px, margins of 80px at the top and bottom, and inner padding of 2em. Add a soft shadow to the container.
 
 Task Add Form:
 
-     A more refined task entry form.
-     The text entry field should have a smooth border and light inner shading.
-     A rounded, stylized button with background color #007BFF and white text should accompany the input field.
-     The font used in the input field must be different from the header font to distinguish the elements.
+ Create a form with a <form> tag inside the .container.
+ Inside the form, add an <input> of type "text" for the task's text input. Set a width of 100% and style with border, rounded border and drop shadow.
+ Add a <button> with the text "Add Task" inside the form. Style it with a background color (#007BFF), white text, a rounded border, and inner spacing.
 
 Task List:
 
-     A well-organized and visually appealing to-do list.
-     Use a list style with no bullets and spacing between items.
-     Each task must include a checkbox icon on the left and a text label on the right.
-     When hovering over a task, the background should lighten slightly to indicate interactivity.
+ Create an <ul> (unordered list) inside the .container.
+ Add some <li> (list items) manually to represent the tasks. Each item must contain an <input> of type "checkbox" for the selection of the task and a <span> for the text of the task.
+ Style the list items (<li>) to have inner spacing, a hover effect with a lighter background color, and a cursor icon when hovering over them.
 
-Task Tags:
+JavaScript:
 
-     Use custom checkbox icons (for example, an empty circle) to indicate uncompleted tasks.
-     When a task is complete, apply a style to display a checkmark icon inside the circle.
+ Underneath the HTML structure, add a <script> tag to enclose the JavaScript code.
+ Use JavaScript to create interactions with to-do list elements:
+     When the checkbox is checked, apply the .completed class to the <li> to mark the task as completed.
+ Add a "Delete Completed" button that, when clicked, removes <li> elements with the .completed class.
 
-Delete Finished Button:
-
-     A button below the task list to remove tasks marked as completed.
-     Style the button with a red background color (#FF4136) and white text.
-
-<!-- General Style:
-
-     Use a legible font for body text, such as "Helvetica Neue" or Arial.
-     Apply a white background to the page to ensure comfortable reading.
-     Maintain a cohesive color palette to create a harmonious visual experience. -->
