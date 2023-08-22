@@ -1,6 +1,7 @@
 body {
   background-color: white;
   font-family: 'Ruwudu', serif;
+  margin: 0;
 }
 
 .header {
@@ -11,19 +12,27 @@ body {
   width: 100%;
   text-align: center;
   font-weight: bold;
+  padding: 0 2px;
   color: white;
 }
 
 .main-container {
   max-width: 800px;
   padding: 2em;
-  margin-top: 100px;
+  margin: 150px auto;
   box-shadow: 0 2px 5px rgb(46, 161, 94);
 }
 
+form {
+  display: flex;
+  margin-bottom: 1em;
+}
+
 #wu {
+  flex: 1;
+  padding: 1em;
   width: 100%;
-  border: greenyellow;
+  border: 1px solid rgb(21, 146, 21);
   border-radius: 70px;
   box-shadow: 0 2px 5px rgb(55, 80, 65);
 }
@@ -33,6 +42,9 @@ body {
   color: #49A078;
   border-radius: 80px;
   padding: 5px;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
 }
 
 li {
