@@ -17,3 +17,9 @@ taskForm.addEventListener("submit", function (event) {
   }
 });
 
+taskList.addEventListener("click", function (event) {
+  if (event.target.classList.contains("task-checkbox")) {
+    const taskItem = event.target.closest("li"); // Encontra o elemento <li> pai do checkbox clicado
+    taskItem.classList.toggle("completed"); // Adiciona ou remove a classe "completed" para alternar o destaque da tarefa concluída
+  }
+});
