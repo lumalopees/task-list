@@ -23,3 +23,8 @@ taskList.addEventListener("click", function (event) {
     taskItem.classList.toggle("completed"); // Adiciona ou remove a classe "completed" para alternar o destaque da tarefa concluída
   }
 });
+
+deleteCompletedBtn.addEventListener("click", function () {
+  const completedTasks = taskList.querySelectorAll(".completed"); // Seleciona todas as tarefas concluídas
+  completedTasks.forEach(task => task.remove()); // Remove cada tarefa concluída da lista
+});
