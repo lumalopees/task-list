@@ -2,10 +2,10 @@
 
 I am excited to request the creation of a more advanced task management page using HTML, CSS and JavaScript technologies. I would like a modern and functional look. Here are the full details of what I have in mind:
 
-HTML:
+<!-- HTML:
 
  Create a basic HTML structure with <html>, <head> and <body> tags.
- In the <head>, add meta tags for the character set and viewport, and set the page title to "To Do List".
+ In the <head>, add meta tags for the character set and viewport, and set the page title to "To Do List". -->
 
 css:
 
