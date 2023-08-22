@@ -50,6 +50,7 @@ form {
 li {
   padding: 1px;
   cursor: pointer;
+  list-style-type: none;
 }
 
 li:hover {
